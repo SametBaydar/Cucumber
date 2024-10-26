@@ -1,3 +1,4 @@
+@WIP
 Feature: kullanici ortak on adimlar icin Background kullanilabilir
 
   Background: anasayfaya gitme
