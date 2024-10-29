@@ -6,18 +6,17 @@ Feature: kullanici aranacak kelime icin parametre kullanabilmeli
     When arama kutusuna "baby" yazip aratir
     Then arama sonucunda urun bulunabildigini test eder
     Then 3 saniye bekler
-    And sayfayi kapatir
 
+  @WIP
   Scenario: TC02 kullanici testotomasyonun sitesinde samsung aratip sonuc bulabilmeli
 
     Given kullanici test otomasyonu sayfasine gider
-    When arama kutusuna "samsung" yazip aratir
+    When arama kutusuna "elma" yazip aratir
     Then arama sonucunda urun bulunabildigini test eder
-    And sayfayi kapatir
 
+  @WIP
   Scenario: TC03 kullanici testotomasyonun sitesinde backpack aratip sonuc bulabilmeli
 
     Given kullanici test otomasyonu sayfasine gider
     Then arama kutusuna "backpack" yazip aratir
     Then arama sonucunda urun bulunabildigini test eder
-    And sayfayi kapatir
